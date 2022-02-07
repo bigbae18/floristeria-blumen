@@ -1,3 +1,20 @@
+@import url(./css/themes.css);
+@import url(./css/media-queries.css);
+
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+
+    --secondary-color: #433334;
+    --primary-color: #3C8080;
+    --white-color: #F2F8F8;
 }

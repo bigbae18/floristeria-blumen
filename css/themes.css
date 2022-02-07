@@ -1,0 +1,7 @@
+[data-localTheme = 'dark'] {
+    --background-color: #2D333B;
+}
+
+[data-localTheme = 'light'] {
+    --background-color: #F2F8F8;
+}
