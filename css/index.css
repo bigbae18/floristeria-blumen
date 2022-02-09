@@ -22,19 +22,28 @@ h1 {
 }
 
 h2 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+#portada {
+    background-image: url(../img/portada_mobile.png);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#portada h2 {
     font-size: 1rem;
     color: var(--secondary-color);
 }
 
-#portada {
-  background-image: url(../img/portada_mobile.png);
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+#contacto {
+    text-align: center;
 }
 
 @import url(./themes.css);
