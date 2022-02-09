@@ -27,7 +27,7 @@ h2 {
 }
 
 #portada {
-  background-image: url(./img/portada_mobile.png);
+  background-image: url(../img/portada_mobile.png);
   background-size: cover;
   background-position: center;
   height: 60vh;
