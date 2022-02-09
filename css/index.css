@@ -12,6 +12,14 @@
     --white-color: #F2F8F8;
 }
 
+header{
+   display: flex;
+   justify-content: center;
+   padding: 8px;
+
+
+}
+
 h1, h2 {
     text-transform: uppercase;
 }
