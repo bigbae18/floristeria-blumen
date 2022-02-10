@@ -8,6 +8,9 @@
     font-family: 'ABeeZee', sans-serif;
     font-weight: 400;
 }
+body {
+    background-color: var(--background-color);
+}
 
 header{
     display: flex;
