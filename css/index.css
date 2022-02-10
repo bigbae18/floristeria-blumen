@@ -1,15 +1,12 @@
+@import url(./themes.css);
+@import url(./media-queries.css);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'ABeeZee', sans-serif;
     font-weight: 400;
-}
-
-:root {
-    --secondary-color: #433334;
-    --primary-color: #3C8080;
-    --white-color: #F2F8F8;
 }
 
 header{
@@ -24,16 +21,13 @@ h1, h2 {
 
 h1 {
     font-size: 4rem;
-    color: var(--secondary-color);
 }
 
 h2 {
-    color: var(--secondary-color);
     margin-bottom: 1rem;
 }
 
 #portada {
-    background-image: url(../img/portada_mobile.png);
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -45,32 +39,28 @@ h2 {
 
 #portada h2 {
     font-size: 1rem;
-    color: var(--secondary-color);
 }
 
 #servicios {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5vh;
-    font-size: 1.4rem;
+    margin: 3rem 1rem 0 1rem;
+    text-align:center;
 }
 
 #nosotros{
     text-align: center;
     padding: 5rem 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
 #dedicaselo, #entregas, #personaliza {
-    height: 20vh;
     display:flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
     background-position: center;
-    margin: 1vh 2vw;
     color: white;
-    font-size: larger;
 }
 
 #dedicaselo {
@@ -106,5 +96,3 @@ h2 {
     padding: 3rem 0;
 }
 
-@import url(./themes.css);
-@import url(./media-queries.css);

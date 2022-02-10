@@ -1,17 +1,67 @@
-/* Móvil */
+/* Ordenador */
 
-@media screen and (min-width: 767px) {
-
+@media screen and (min-width: 1024px) {
+    #portada h1, #portada h2{
+        color: var(--white-color);
+    }
+    #portada {
+        background-image: url('../img/portada_desktop.png');
+    }
+    #servicios {
+        display: grid;
+        height: 50vh;
+        justify-content: space-around;
+        grid-template: 1fr / repeat(3, 1fr);
+        font-size: 2.2rem;
+    }
+    #dedicaselo, #entregas, #personaliza {
+        margin: 0 0.8rem;
+    }
 }
 
 /* Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
+    #portada h1, #portada h2{
+        color: var(--white-color);
+    }
+    #portada {
+        background-image: url('../img/portada_desktop.png');
+    }
+    #servicios {
+        display: grid;
+        height: 50vh;
+        justify-content: space-around;
+        grid-template: 1fr / repeat(3, 1fr);
+        font-size: 2.2rem;
+    }
+    #dedicaselo, #entregas, #personaliza {
+        margin: 0 0.8rem;
+    }
 }
 
-/* Ordenador */
+/* Móvil */
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 767px) {
+
+    #portada h1, #portada h2 {
+        color: var(--secondary-color);
+    }
+
+    #portada {
+        background-image: url('../img/portada_mobile.png');
+    }
+
+    #servicios {
+        display:grid;
+        grid-template: repeat(3, 1fr) / 1fr;
+        min-height: 60vh;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+    #dedicaselo, #entregas, #personaliza {
+        height: 20vh;
+        margin: 0.5rem 0;
+    }
 
 }

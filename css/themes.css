@@ -1,7 +1,12 @@
 [data-localTheme = 'dark'] {
     --background-color: #2D333B;
+    --white-color: #F2F8F8;
+    --secondary-color: #433334;
+
 }
 
 [data-localTheme = 'light'] {
     --background-color: #F2F8F8;
+    --white-color: #F2F8F8;
+    --secondary-color: #433334;
 }
