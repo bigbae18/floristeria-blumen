@@ -50,6 +50,11 @@ h2 {
     color: var(--secondary-color);
 }
 
+#nosotros{
+    text-align: center;
+    padding: 5rem 3rem;
+}
+
 #rrss {
     background-color: #EBEAEA;
     display: flex;
