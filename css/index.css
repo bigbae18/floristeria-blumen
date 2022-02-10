@@ -64,7 +64,7 @@ h2 {
 }
 
 #dedicaselo {
-    background-image: url(../img/servicio_dedicaselo.png); /*difuminar imagenes*/
+    background-image: url(../img/servicio_dedicaselo.png);
 }
 #entregas {
     background-image: url(/img/servicio_domicilio.png);
@@ -95,11 +95,13 @@ h2 {
     text-align: center;
     padding: 3rem 0;
 }
+
 #botones-temas {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: column;
 }
+
 #botones-temas button {
     width: 2vw;
     border: none;
