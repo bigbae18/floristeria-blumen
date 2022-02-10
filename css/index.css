@@ -48,17 +48,18 @@ h2 {
     color: var(--secondary-color);
 }
 
+#servicios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    font-size: 1.4rem;
+}
+
 #nosotros{
     text-align: center;
     padding: 5rem 3rem;
 }
 
-#servicios {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5vh;
-    margin-bottom: 5vh ;
-}
 
 #dedicaselo, #entregas, #personaliza {
     height: 20vh;
