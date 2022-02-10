@@ -17,6 +17,18 @@
     #dedicaselo, #entregas, #personaliza {
         margin: 0 0.8rem;
     }
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #EBEAEA;
+    }
+    #rrss {
+        order: 1;
+    }
+    #contacto {
+        text-align: left;
+    } 
 }
 
 /* Tablet */
@@ -38,6 +50,18 @@
     #dedicaselo, #entregas, #personaliza {
         margin: 0 0.8rem;
     }
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #EBEAEA;
+    }
+    #rrss {
+        order: 1;
+    }
+    #contacto {
+        text-align: left;
+    } 
 }
 
 /* Móvil */
@@ -62,6 +86,10 @@
     #dedicaselo, #entregas, #personaliza {
         height: 20vh;
         margin: 0.5rem 0;
+    }
+
+    #contacto {
+      text-align: center;
     }
 
 }
