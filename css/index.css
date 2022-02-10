@@ -12,14 +12,18 @@ body {
     background-color: var(--background-color);
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     padding: 8px;
+    color: var(--text-color)
 }
 
 h1, h2 {
     text-transform: uppercase;
+}
+#nosotros {
+    color: var(--text-color);
 }
 
 h1 {
@@ -63,7 +67,7 @@ h2 {
     align-items: center;
     background-size: cover;
     background-position: center;
-    color: white;
+    color: var(--white-color);
 }
 
 #dedicaselo {

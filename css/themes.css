@@ -3,10 +3,17 @@
     --white-color: #F2F8F8;
     --secondary-color: #433334;
 
+    --text-color: #fff;
+    --footer-mobile-color: #fff;
+    --footer-color: #000;
 }
 
 [data-localTheme = 'light'] {
     --background-color: #F2F8F8;
     --white-color: #F2F8F8;
     --secondary-color: #433334;
+    
+    --text-color: #000;
+    --footer-mobile-color: #000;
+    --footer-color: #000;
 }
