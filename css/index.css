@@ -48,39 +48,32 @@ h2 {
     color: var(--secondary-color);
 }
 
+
+#servicios {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.p {
+    color: white;
+    font-size: larger;
+    position: relative;
+    top: 13vh;
+    z-index: 1;
+}
+
+.img {
+    filter: blur(2px);
+    height: 20vh;
+    width: 90vw;
+    object-fit: cover;
+}
+
 #nosotros{
     text-align: center;
     padding: 5rem 3rem;
-}
-
-#servicios {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5vh;
-    margin-bottom: 5vh ;
-}
-
-#dedicaselo, #entregas, #personaliza {
-    height: 20vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    margin: 1vh 2vw;
-    color: white;
-    font-size: larger;
-}
-
-#dedicaselo {
-    background-image: url(../img/servicio_dedicaselo.png); /*difuminar imagenes*/
-}
-#entregas {
-    background-image: url(/img/servicio_domicilio.png);
-}
-
-#personaliza {
-    background-image: url(/img/servicio_personaliza.png);
 }
 
 #rrss {
