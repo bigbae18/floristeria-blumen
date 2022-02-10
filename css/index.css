@@ -11,7 +11,7 @@
 
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 8px;
 }
 
@@ -94,5 +94,16 @@ h2 {
 #contacto {
     text-align: center;
     padding: 3rem 0;
+}
+#botones-temas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: column;
+}
+#botones-temas button {
+    width: 2vw;
+    border: none;
+    margin: 0 2vw;
+    background:none;
 }
 
