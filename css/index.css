@@ -16,8 +16,6 @@ header{
     display: flex;
     justify-content: center;
     padding: 8px;
-
-
 }
 
 h1, h2 {
@@ -53,6 +51,36 @@ h2 {
 #nosotros{
     text-align: center;
     padding: 5rem 3rem;
+}
+
+#servicios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 5vh ;
+}
+
+#dedicaselo, #entregas, #personaliza {
+    height: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    margin: 1vh 2vw;
+    color: white;
+    font-size: larger;
+}
+
+#dedicaselo {
+    background-image: url(../img/servicio_dedicaselo.png); /*difuminar imagenes*/
+}
+#entregas {
+    background-image: url(/img/servicio_domicilio.png);
+}
+
+#personaliza {
+    background-image: url(/img/servicio_personaliza.png);
 }
 
 #rrss {
