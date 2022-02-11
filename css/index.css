@@ -74,11 +74,11 @@ h2 {
 }
 
 #entregas {
-    background-image: url(/img/servicio_domicilio.png);
+    background-image: url(../img/servicio_domicilio.png);
 }
 
 #personaliza {
-    background-image: url(/img/servicio_personaliza.png);
+    background-image: url(../img/servicio_personaliza.png);
 }
 
 #nosotros {
