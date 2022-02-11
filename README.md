@@ -1,6 +1,6 @@
 # Blumen Floristeria
 
-Blumen Floristeria es un proyecto creado por alumnos Factoria f5. La idea del proyecto ha residido en la creación de una landing page en un grupo de cinco personas. 
+Blumen Floristeria es un proyecto creado por alumnos de Factoria f5. La idea del proyecto ha residido en la creación de una landing page en un grupo de cinco personas. 
 
 ## Creadores
 Blumen Floristeria ha sido creada gracias a:
